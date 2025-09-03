@@ -5,8 +5,8 @@
     gap: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #222;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@
 .top-label {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: #fafafa;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -24,12 +24,12 @@
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    color: #333;
+    color: #fafafa;
 }
 
 .select-label {
     font-size: 1.2rem; 
-    color: #222;
+    color: #e0e0e0;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -44,9 +44,11 @@
 
 .form select {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-radius: 4px;
     font-size: 1rem;
+    background-color: #333;
+    color: #fafafa;
     outline: none;
     transition: border-color 0.2s ease;
 }
@@ -57,26 +59,29 @@
 
 .optional-criteria-label {
     text-align: left;
+    color: #fafafa;
 }
 
 .form-button {
-    border: 1px solid #808080;
+    border: 1px solid #444;
     border-radius: 4px;
     padding: 4px;
     margin: 3px;
+    background-color: #333;
+    color: #fafafa;
     align-items: center;
     justify-content: center;
 }
 
 .form-button:hover {
     border-color: #83bcf9;
-    background-color: #a7c8eb;
+    background-color: #2a3b4d;
     cursor: pointer;
 }
 
 .form-button:active {
     border-color: #5fa8f5;
-    background-color: #85b6eb;
+    background-color: #1e2a38;
     cursor: pointer;
 }
 

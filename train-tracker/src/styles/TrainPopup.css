@@ -4,8 +4,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #d1d5db;
-    opacity: 0.8;
+    background-color: #1a1a1a;
+    opacity: 0.85;
     z-index: 999;
     overflow: scroll;
 }
@@ -17,7 +17,8 @@
     bottom: 10%;
     left: 10%;
     padding: 2.5rem;
-    background-color: white;
+    background-color: #23272f;
+    color: #f3f4f6;
     z-index: 1000;
     max-height: 100vh;
 }
