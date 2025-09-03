@@ -46,7 +46,7 @@ export function filterTrains(allTrains, sObj) {
         trains = trains.filter(t => t.scheduledDeparture === sObj.date)
     }
     // sort results by number (ascending)
-    trains = sortTrains(trains, (a,b) => a.number - b.number);
+    trains = sortTrains(trains, (a,b) => b.number - a.number);
     return trains;
 }
 
